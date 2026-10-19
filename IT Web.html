@@ -1,0 +1,1212 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://it-website.multiscreensite.com/',
+
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '2a2f3a6a',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Oct 19, 2026',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'home',
+        InitialPageUuid: '1d5a54ffb5a94031b8f6ba9b687e788f',
+        InitialPageId: '50240353',
+        InitialEncodedPageAlias: 'aG9tZQ==',
+        InitialHeaderUuid: '9af7b2aac92e477eaf723300bb98afe3',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: true,
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        
+        mapConsent: {
+            message: 'This content is served by a third party, {0}. If enabled, {0} may collect information about your activity.',
+            enable: 'Enable'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://it-website.multiscreensite.com/',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        planID: '7',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        isInPreview: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+        hamburgerMigration: null,
+        isFlexSite: true
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 30;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="d_track_campaign" data-entry-referrer data-utm-cookies></script>
+
+<script type="text/javascript" >
+    var _dm_gaq = {};
+    var _gaq = _gaq || [];
+    var _dm_insite = [];
+</script>
+
+
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+
+
+
+
+<meta name="d-service-worker" content="register">
+
+
+
+<link rel="canonical" href="https://it-website.multiscreensite.com/">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="dm:lcp-preload" content="https://irp.cdn-website.com/2a2f3a6a/dms3rep/multi/opt/1792381307407-16_9-2fr-1920w.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
+<link rel="icon" type="image/x-icon" href="https://static.cdn-website.com/runtime/favicon_d1_res.ico"/>
+
+
+<link rel="preconnect" href="https://irp.cdn-website.com"/>
+<link rel="preconnect" href="https://irp.cdn-website.com" crossorigin/>
+<link rel="preconnect" href="https://static.cdn-website.com"/>
+
+
+
+
+<script id='d-js-dmapi'>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}@media (min-width:768px) and (max-width:1024px){.responsiveTablet #dm .dmInner .hide-for-medium,[data-hidden-on-tablet]{display:none!important}}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    :root {
+  --color_1: rgba(247,245,240,1);
+  --color_2: rgba(31,38,48,1);
+  --color_3: rgba(181,71,42,1);
+  --color_4: rgba(222,218,210,1);
+  --color_5: rgba(36,59,83,1);
+  --color_6: rgba(255,255,255,1);
+  --color_7: rgba(245,236,231,1);
+  --max-content-width_1: 1200px;
+}
+</style>
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+</style>
+
+
+
+<style id="criticalCss">
+    @charset "UTF-8";[data-layout-grid],[data-widget-type]:has(>.dmWidget.flexButton){-ms-grid-columns:minmax(0,1fr);grid-template-columns:minmax(0,1fr)}@font-face{font-family:'Work Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Fraunces;font-style:normal;font-weight:100 900;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/fraunces/v38/6NUu8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib14c7qv8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}:root{--color_1:rgba(247,245,240,1);--color_2:rgba(31,38,48,1);--color_3:rgba(181,71,42,1);--color_4:rgba(222,218,210,1);--color_5:rgba(36,59,83,1);--color_6:rgba(255,255,255,1);--color_7:rgba(245,236,231,1);--max-content-width_1:1200px;--hover-transform-zoomout:scale(1.06);--hover-transform-float:translateY(-8px);--hover-transform-forward:translateX(8px);--hover-transform-shrink:scale(0.9);--hover-transform-move-top:translateY(-10px);--hover-transform-move-bottom:translateY(10px);--hover-transform-move-left:translateX(-10px);--hover-transform-move-right:translateX(10px);--hover-transform-rotate:rotate(7deg);--hover-transform-opacity:0.7;--hover-scroll-transform:translate3d(0, 0, 0);--btn-border-l-color:var(--color_3);--btn-border-r-color:var(--color_3);--btn-border-b-width:1px;--btn-border-radius:6px;--btn-border-t-width:1px;--btn-border-tl-radius:6px;--btn-border-br-radius:6px;--btn-border-bl-radius:6px;--btn-bg-color:var(--color_3);--btn-box-shadow:0px 2px 6px rgba(181,71,42,0.25);--btn-border-r-width:1px;--btn-border-tr-radius:6px;--btn-border-b-color:var(--color_3);--btn-border-l-width:1px;--border-style:solid;--btn-border-t-color:var(--color_3);--btn-text-color:rgba(255,255,255,1);--btn-text-font-weight:600;--btn-text-font-family:"Work Sans","Work Sans Fallback";--btn-icon-color:rgba(0, 0, 0, 1);--btn-icon-wrpr-display:none;--btn-hover-border-b-color:var(--btn-hover-border-color);--btn-hover-bg:var(--color_5);--btn-hover-border-t-color:var(--btn-hover-border-color);--btn-hover-border-r-color:var(--btn-hover-border-color);--btn-hover-border-l-color:var(--btn-hover-border-color);--btn-hover-border-color:var(--color_5);--btn-hover-text-color:rgba(255,255,255,1);--btn-hover-text-font-weight:var(--btn-text-font-weight);--btn-hover-text-decoration:var(--btn-text-decoration);--btn-hover-text-font-style:var(--btn-text-font-style);--section-padding-top:72px;--section-padding-left:5%;--section-padding-right:5%;--section-padding-bottom:72px;--column-padding-top:10px;--column-padding-right:10px;--column-padding-left:10px;--column-padding-bottom:10px;--inner-column-padding-left:10px;--inner-column-padding-right:10px;--inner-column-padding-top:10px;--inner-column-padding-bottom:10px}[data-layout-grid]{display:-ms-grid;display:grid;justify-content:start;align-items:start}[data-layout-grid]>.flex-element.group{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;-ms-grid-column-align:center;justify-self:center;-ms-grid-row-align:start;align-self:start;order:0;max-width:1200px}[data-layout-grid]>.flex-element.group>.flex-element.group{align-items:flex-start;-ms-grid-row-align:stretch;align-self:stretch}.flex-element.group,[data-layout-grid],[data-layout-grid]>.flex-element.group,[data-layout-grid]>.flex-element.group>.flex-element.group{background-size:cover;background-repeat:no-repeat;background-position:50% 50%;position:relative}.flex-element.group,[data-layout-grid]>.flex-element.group>.flex-element.group{max-width:100%;display:flex;flex-direction:column;justify-content:center}.flex-element.widget-wrapper{position:relative;min-width:10px;min-height:10px}#dm [data-flex-id] .widget-wrapper>[data-element-type]{width:100%;height:100%;margin:0;padding:0}[data-flex-id] .flex-element.grid>.flex-element{-ms-grid-column:1;grid-column-start:1;-ms-grid-column-span:1;grid-column-end:span 1;-ms-grid-row:1;grid-row-start:1;-ms-grid-row-span:1;grid-row-end:span 1}[data-widget-type]:has(>.dmWidget.flexButton){display:-ms-grid;display:grid;-ms-grid-rows:minmax(0,1fr);grid-template-rows:minmax(0,1fr)}#flex-header [data-widget-type=image]{text-align:center}.dmInner{position:relative;background:#fff;min-width:auto!important}a,button{font-family:inherit}#dmRoot{-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}#site_content,[data-flex-id]{position:relative}[data-layout-grid]{-ms-grid-rows:minmax(0,max-content)!important;grid-template-rows:minmax(0,max-content)!important}.flex-widgets-container{display:none}body.fix-mobile-scrolling{overflow:initial}html{font-family:Source Sans Pro;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}@media (max-width:767px){[data-hidden-on-mobile]{display:none!important}}*,:after,:before{box-sizing:border-box}@media (min-width:768px) and (max-width:1024px){[data-hidden-on-tablet]{display:none!important}}.dmInner ul:not(.defaultList){padding:1px}a,img,li,ul{vertical-align:top}.dmOuter{word-wrap:break-word}img{max-width:100%;-ms-interpolation-mode:bicubic;display:inline-block}#dmFlexHeaderContainer{display:inline}#flex-sticky [data-layout-grid]>.flex-element.group>.flex-element.group>.flex-element.inner-grid>.flex-element{-ms-grid-row:1;-ms-grid-row-span:1;-ms-grid-column:1;-ms-grid-column-span:1;grid-area:1/1/2/2;max-width:fill-available;max-width:-webkit-fill-available}@media (min-width:1025px){[data-hidden-on-desktop]{display:none!important}[data-layout-grid]>.flex-element.group{max-width:var(--max-content-full_1,var(--max-content-width_1,1200px))}[data-version] [class^=font-size-],[data-version] [class^=size-]{font-size:calc(var(--font-size) * var(--font-unit,1px))!important}}@supports (-webkit-touch-callout:none){.flex-element.grid,.flex-element.group{background-attachment:scroll!important}}@media (max-width:1024px){[data-layout-grid]>.flex-element.group{max-width:1200px}}body{container-type:inline-size;container-name:body;-webkit-overflow-scrolling:touch}:not(.runtime-module-container) .layout-drawer,:not(.runtime-module-container) .layout-drawer-overlay{visibility:hidden}:not(.runtime-module-container) .layout-drawer{position:fixed;transform:translate(-100%,-100%)}:not(.runtime-module-container) .layout-drawer[data-origin=side-reverse]{transform:translate(100%,0)}:not(.runtime-module-container) .layout-drawer-overlay{opacity:0}.runtime-module-container{width:100%}.runtime-module-container .layout-drawer,.runtime-module-container .layout-drawer-overlay{visibility:visible;height:100%;position:fixed;top:0;left:0}.runtime-module-container .layout-drawer{background-color:#fff;width:75vw;transform:translate(-100%,0);overflow:auto;-webkit-overflow-scrolling:auto;z-index:13;display:flex;flex-direction:column}.runtime-module-container .layout-drawer[data-origin=side-reverse]{transform:translate(100%,0);left:auto;right:0}.runtime-module-container .layout-drawer-overlay{width:100vw;background-color:rgba(0,0,0,.4);opacity:0;z-index:6}@media (min-width:1025px){[data-flex-site] .layout-drawer:not([data-origin=top]){width:30vw}}@media (min-width:768px) and (max-width:1024px){[data-flex-site] .layout-drawer:not([data-origin=top]){width:50vw}}@media (max-width:767px){[data-flex-site] .layout-drawer:not([data-origin=top]){width:80vw}#dm .dmInner .dmWidget{width:100%}}[data-flex-site] .layout-drawer [data-flex-id]{flex:1 0 auto;transform:translateZ(0)}.main-navigation.unifiednav{justify-content:space-around;align-items:stretch;display:flex;overflow:visible}.main-navigation.unifiednav ul{margin:0;padding:0;font-size:1rem;list-style:none}.main-navigation.unifiednav .unifiednav__container{flex-grow:1;list-style:none;display:flex}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap{justify-content:flex-start;font-weight:400;display:flex;position:relative}.main-navigation.unifiednav .unav-top>.unifiednav__item-wrap:after,.main-navigation.unifiednav .unav-top>.unifiednav__item-wrap:before{content:"";align-self:center;font-weight:700}.main-navigation.unifiednav :where(.unav-item){color:inherit;font-weight:inherit;letter-spacing:.03em;flex-direction:row;justify-content:flex-start;align-items:center;margin:0;padding:12px 15px;text-decoration:none;display:flex;position:relative}.main-navigation.unifiednav .unav-top-item{padding:0 15px}.main-navigation.unifiednav .unav-top-item .nav-item-text:after,.main-navigation.unifiednav .unav-top-item .nav-item-text:before{content:"";opacity:0;border:0 solid transparent;border-top-color:currentColor;width:100%;height:0;display:block}.main-navigation.unifiednav .unav-top-item:is(.dmNavItemSelected,:hover,.hover) .nav-item-text:after,.main-navigation.unifiednav .unav-top-item:is(.dmNavItemSelected,:hover,.hover) .nav-item-text:before{opacity:1}.main-navigation.unifiednav .unav-item .nav-item-text{white-space:nowrap}.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2,.effect-top-bottom){padding:calc(10px - .2em) 15px}.main-navigation.unifiednav:is(.effect-top-bottom,.effect-bottom,.effect-bottom2) .unav-top-item .nav-item-text:after{margin-top:.2em}.main-navigation.unifiednav:is(.effect-top-bottom,.effect-bottom,.effect-bottom2) .unav-top-item .nav-item-text:before{margin-bottom:.2em}.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2) .unav-top-item .nav-item-text:after,.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2) .unav-top-item .nav-item-text:before{border-top-width:2px;transform:scaleX(0)}.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2) .unav-top-item .nav-item-text:before{border-top-color:transparent}.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2) .unav-top-item:is(.dmNavItemSelected,:hover,.hover) .nav-item-text:after,.main-navigation.unifiednav:is(.effect-bottom,.effect-bottom2) .unav-top-item:is(.dmNavItemSelected,:hover,.hover) .nav-item-text:before{transform:scaleX(1)}.main-navigation.unifiednav.effect-bottom2 .unav-top-item .nav-item-text:after,.main-navigation.unifiednav.effect-bottom2 .unav-top-item .nav-item-text:before{transform-origin:0}.main-navigation.unifiednav .icon{display:none}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{justify-content:inherit}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container{flex-direction:column;flex:100%}#\34 09c90d8,#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unav-top>.unifiednav__item-wrap{flex-direction:column}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>:where(.unifiednav__item-wrap)>:where(.unav-item){margin:0;padding:8px 0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>:where(.unifiednav__item-wrap)>:where(.unav-item) .nav-item-text{white-space:initial}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unav-top>.unifiednav__item-wrap:after{color:#d1d1d1;border:0 solid;align-self:flex-start;width:100%;height:0;content:""!important}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][layout-main=vertical_nav_layout_2] .unav-top-item{padding:5px 0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL]:is([data-show-vertical-sub-items=HIDE],[data-show-vertical-sub-items=HOVER])>.unav-top>.unifiednav__item-wrap .unav-item.dmNavItemSelected>.nav-item-text .icon:before{transform:rotate(180deg)}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container{justify-content:inherit;flex-wrap:wrap}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container .nav-item-text:before{text-align:left}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])[data-divider]:not([data-direction=RIGHT]) :is(.left_nav>.unifiednav__item-wrap,.unav-top>.unifiednav__item-wrap:not(:last-child)):after{content:var(--divider)}#dm .dmInner .dmWidget:not(.displayNone){display:inline-block}#dm .dmInner .dmWidget.flexButton:not(.displayNone){display:flex}#dm .dmInner .dmWidget.flexButton{display:flex;align-items:center;justify-content:center;padding:10px 7px}#dm .dmInner .dmWidget.flexButton:after,#dm .dmWidget:not([data-buttonstyle]) .iconBg{display:none}#dm .dmInner .dmWidget.flexButton .text{padding:0!important;flex-grow:1;max-width:max-content}#dm .dmInner .dmWidget{text-decoration:none;margin:10px 0;clear:both;position:relative;text-align:center;line-height:22px;box-shadow:none;background-image:none;padding:0;height:auto;border-style:solid;white-space:nowrap}#dm .dmInner .dmWidget:after{content:"";display:inline-block;height:100%;vertical-align:middle;width:0;margin-right:-.25em}#dm .dmInner .dmWidget .iconBg{position:absolute;left:0;width:50px;top:50%;margin-top:-13px}#dm .dmWidget .text{display:inline-block;vertical-align:middle;font-size:1.125em;line-height:normal;white-space:normal;padding:10px 7px;max-width:98%}[class*=" icon-"]{font-family:FontAwesome!important;font-weight:400;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}[class*=" icon-"]:before{text-decoration:none;display:inline-block;speak:none}a [class*=" icon-"]{display:inline}.icon-star:before{content:"\f005"}.icon-angle-down:before{content:"\f107";width:.643em;mask:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201152%201792'%3E%3Cpath%20transform='translate(0,1536)%20scale(1,-1)'%20d='M1075%20800q0%20-13%20-10%20-23l-466%20-466q-10%20-10%20-23%20-10t-23%2010l-466%20466q-10%2010%20-10%2023t10%2023l50%2050q10%2010%2023%2010t23%20-10l393%20-393l393%20393q10%2010%2023%2010t23%20-10l50%20-50q10%20-10%2010%20-23z'/%3E%3C/svg%3E") no-repeat center/contain}.hamburgerButton{display:block;background-color:transparent;border:0;padding:0;margin:0}.hamburgerButton,.hamburgerButton svg{width:100%;height:100%}.imageWidget{position:relative}.imageWidget img[width][height]{height:auto}[data-flex-site] #flex-header .imageWidget:after{content:none}[data-flex-site] #flex-header .imageWidget:before{font-size:80px;transform:none}.dmNewParagraph[data-version]{line-height:initial}.dmNewParagraph[data-version] [class*=size-]{width:auto!important;height:auto!important}.dmNewParagraph[data-version] h1,.dmNewParagraph[data-version] h2,.dmNewParagraph[data-version] h3,.dmNewParagraph[data-version] p{margin-top:0;margin-bottom:0}.graphicWidget{width:200px;height:200px;margin:10px auto;text-align:center}.graphicWidget svg.svg{width:100%;height:100%;color:#000;fill:#000}img[width][height]{height:auto}@media (min-width:1025px){#dm div.dmContent h3,#dm div.dmNewParagraph p{font-size:18px}#dm DIV.dmOuter DIV.dmInner{background-color:rgba(247,245,240,1)}#dm div.dmInner{font-size:15px}#dm div.dmNewParagraph p{font-size:18px}#dm div.dmContent h1{font-size:50px}#dm div.dmContent h2,#dm div.flex_hfcontainer h2{font-size:32px}#dm div.dmContent h3{font-size:25px}#dmRoot #dm div.dmContent h2,#dmRoot #dm div.flex_hfcontainer h2{font-size:34px}#dmRoot #dm div.dmContent h3{font-size:22px}#dmRoot #dm div.dmNewParagraph p{font-size:17px}#dmRoot #dm div.dmContent h1{font-size:56px}[data-version] .font-size-24,[data-version] .size-24{--font-size:24}}@media (min-width:768px) and (max-width:1024px){#dm div.dmInner,#dm div.dmNewParagraph p{font-size:16px}#dm div.dmContent h1{font-size:50px}#dm div.dmContent h2,#dm div.flex_hfcontainer h2{font-size:30px}#dm div.dmContent h3{font-size:25px}#dmRoot #dm div.dmContent h1{font-size:50px}:root{--section-padding-left:2%;--section-padding-right:2%}}#dm div.dmContent h1{color:#666}#dm div.dmInner{font-family:"Work Sans","Work Sans Fallback";color:var(--color_2);font-weight:400;line-height:1.6}#dm div.dmContent h1,#dm div.dmNewParagraph p{color:var(--color_1);direction:ltr;font-family:Poppins,"Poppins Fallback"}#dm div.dmContent h1{font-weight:700;font-style:normal;text-decoration:none}#dm div.dmContent .dmNewParagraph[data-version] h1{text-decoration:inherit}#dm div.dmContent .dmNewParagraph[data-version] h1 *,#dm div.dmContent h2,#dm div.dmNewParagraph p,#dm div.flex_hfcontainer h2{text-decoration:none}#dm div.dmNewParagraph p{font-weight:400;font-style:normal}#dm div.dmContent h2,#dm div.dmContent h3,#dm div.flex_hfcontainer h2{color:var(--color_1);direction:ltr;font-family:Poppins,"Poppins Fallback";font-weight:700;font-style:normal}#dm div.dmContent .dmNewParagraph[data-version] h2,#dm div.flex_hfcontainer .dmNewParagraph[data-version] h2{text-decoration:inherit}#dm div.dmContent .dmNewParagraph[data-version] h2 *,#dm div.dmContent h3,#dm div.flex_hfcontainer .dmNewParagraph[data-version] h2 *{text-decoration:none}#dm div.dmContent .dmNewParagraph[data-version] h3{text-decoration:inherit}#dm div.dmContent .dmNewParagraph[data-version] h3 *{text-decoration:none}#dmRoot #dm div.dmNewParagraph p{color:var(--color_2);font-weight:400;font-family:"Work Sans","Work Sans Fallback";line-height:1.6}#dmRoot #dm div.dmContent h1,#dmRoot #dm div.dmContent h2,#dmRoot #dm div.dmContent h3,#dmRoot #dm div.flex_hfcontainer h2{color:var(--color_2);font-family:Fraunces,"Fraunces Fallback"}#dmRoot #dm div.dmContent h1{font-weight:700;letter-spacing:-.01em;line-height:1.05}#dmRoot #dm div.dmContent h2,#dmRoot #dm div.flex_hfcontainer h2{font-weight:700;letter-spacing:-.01em;line-height:1.1}#dmRoot #dm div.dmContent h3{font-weight:600}@media (min-width:0px) and (max-width:767px){#dm div.dmInner,#dm div.dmNewParagraph p{font-size:16px}#dm div.dmContent h1{font-size:40px}#dm div.dmContent h2,#dm div.flex_hfcontainer h2{font-size:30px}#dm div.dmContent h3{font-size:20px}:root{--section-padding-left:4%;--section-padding-right:4%}}#dm .dmWidget:not([data-buttonstyle]){background-clip:border-box;border-radius:6px}#dm .dmWidget:not([data-buttonstyle]) .text,#dm .dmWidget:not([data-buttonstyle]).flexButton{padding:10px 7px}#dm div.dmInner #site_content .dmWidget{background-color:var(--btn-bg-color);border-color:var(--btn-border-color);border-bottom-color:var(--btn-border-b-color);border-left-color:var(--btn-border-l-color);border-right-color:var(--btn-border-r-color);border-top-color:var(--btn-border-t-color);border-radius:var(--btn-border-radius);border-bottom-left-radius:var(--btn-border-bl-radius);border-bottom-right-radius:var(--btn-border-br-radius);border-top-left-radius:var(--btn-border-tl-radius);border-top-right-radius:var(--btn-border-tr-radius);border-width:var(--btn-border-width);border-bottom-width:var(--btn-border-b-width);border-left-width:var(--btn-border-l-width);border-right-width:var(--btn-border-r-width);border-top-width:var(--btn-border-t-width);box-shadow:var(--btn-box-shadow)}#dm div.dmInner #site_content .dmWidget span.text{color:var(--btn-text-color);font-family:var(--btn-text-font-family);font-weight:var(--btn-text-font-weight)}#dm div.dmInner #site_content .dmWidget span.icon{color:var(--btn-icon-color)}#dm div.dmInner #site_content .dmWidget:not([data-buttonstyle]) .iconBg{display:var(--btn-icon-wrpr-display)}.dmBody [data-layout-grid]>.flex-element.group{padding-bottom:var(--section-padding-bottom);padding-left:var(--section-padding-left);padding-right:var(--section-padding-right);padding-top:var(--section-padding-top)}.dmBody [data-layout-grid]>.flex-element.group>.flex-element.group{padding-bottom:var(--column-padding-bottom);padding-left:var(--column-padding-left);padding-right:var(--column-padding-right);padding-top:var(--column-padding-top)}.dmBody [data-layout-grid]>.flex-element.group>.flex-element.group .flex-element.group:not([data-layout-type] *):not([data-layout-type]){padding-bottom:var(--inner-column-padding-bottom);padding-left:var(--inner-column-padding-left);padding-right:var(--inner-column-padding-right);padding-top:var(--inner-column-padding-top)}nav.u_1998592992{color:#fff!important}#dm .dmInner nav.u_1198691314.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item,#dm .dmInner nav.u_1998592992.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{color:var(--color_6)!important}#dm .dmInner div#hamburger-drawer.layout-drawer{background-color:rgba(255,255,255,1)!important}#dm .dmInner .u_1198691314.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{margin:0!important;padding:0 20px!important}#\36 3a049320d35b55b4ef2a377,#a1f8711f{column-gap:4%;row-gap:24px;padding:4% 4% 2%;margin:0}#dm .dmInner .u_1117254353{width:100%!important}#\30 0ca91b4,#\31 2a003a5{width:30px;height:30px}#dm .dmInner .u_1198691314{justify-content:center!important}#dm .dmInner a.u_1540576542 .iconBg{display:none!important}#\34 09c90d8,#\37 19eee77{background-size:cover;display:flex;background-position:50% 50%;background-repeat:no-repeat;position:relative;width:100%;padding:0}@media (min-width:768px) and (max-width:1024px){div[dmtemplateid=FlexHeader] .layout-drawer-overlay{background-color:rgba(0,0,0,.6)!important}}#flex-header,#hamburger-drawer{background-color:var(--color_5)}#flex-header{padding:0;margin:0}#\31 2a003a5 .hamburgerButton,#\36 3a049320d35b55b4ef2a374,#\36 3a049320d35b55b4ef2a376{background-color:rgba(0,0,0,0)}#\36 3a049320d35b55b4ef2a374{min-height:8px;column-gap:4%;row-gap:24px;width:100%;min-width:4%;justify-content:flex-start;padding:16px;margin:0}#\36 3a049320d35b55b4ef2a377{min-height:531px;width:100%}#\36 3a049ca0d35b55b4ef2a5c3{width:544px;height:auto;max-width:100%;order:0;grid-area:auto/auto/auto/auto}#\39 d047ce9{min-height:8px;column-gap:4%;row-gap:24px;width:100%;min-width:4%;align-items:flex-end;justify-content:flex-end;padding:16px;margin:0}#a1f8711f{min-height:0;width:100%}#\31 2a003a5 svg{fill:rgba(120,120,120,1)}#\39 dc5a074{min-height:0;column-gap:0;row-gap:0;max-width:none;width:100%;flex-wrap:nowrap;padding:6px 2%;margin:0}#\35 286ad74{width:249px;height:auto;max-width:100%;order:0;min-height:55px;grid-area:auto/auto/auto/auto}#\38 8e69a6f{flex-direction:row;justify-content:flex-start;align-items:center;width:17.5%;min-width:4%;min-height:8px;column-gap:4%;row-gap:24px;padding:6px 16px;margin:0}#\30 4886df1,#\37 80d21df{flex-direction:row;padding:6px 16px;min-height:8px;column-gap:4%;min-width:4%;margin:0;row-gap:24px}#\30 4886df1{justify-content:flex-end;align-items:center;width:17.5%}#\32 3d5f850{width:100%;height:auto;max-width:100%;justify-self:auto;order:0;grid-area:auto/auto/auto/auto}#\37 80d21df{align-items:center;width:65%}#\37 64397de{min-height:8px;column-gap:4%;row-gap:24px;flex-direction:row;width:25%;justify-content:flex-end;align-items:center;min-width:4%;padding:16px;margin:0}#\30 0ca91b4{max-width:100%}#\37 ff771e1{width:60px;height:60px;max-width:100%}#\30 6cb1687{max-width:100%;width:auto;order:1;height:auto}#dm .dmInner nav.u_1998592992{color:#000!important}#dm .dmInner nav.u_1198691314{color:#fff!important}@media (min-width:768px) and (max-width:1024px){#\30 4886df1,#\37 64397de{width:30%;min-height:8px}#\36 3a049320d35b55b4ef2a374{justify-content:flex-start;padding-top:16px}#\36 3a049320d35b55b4ef2a377{min-height:522px;padding:4%}#a1f8711f{padding-left:4%;padding-right:4%;padding-bottom:4%}#\39 d047ce9{padding-bottom:6px}#\39 dc5a074{padding-left:2%;padding-right:2%;flex-direction:row;flex-wrap:nowrap;min-height:0}#\35 286ad74{width:235px}#\38 8e69a6f{width:39.92%;margin-left:-.0011659701492537314%;justify-content:center;min-height:8px}#\30 4886df1{justify-content:flex-start}#\37 80d21df{width:20.7%;justify-content:flex-end;padding-right:50px}#\30 0ca91b4{justify-self:auto;align-self:auto;order:0;margin:0;grid-area:auto/auto/auto/auto}#\37 ff771e1{width:32px;height:32px}}@media (max-width:767px){#\36 3a049320d35b55b4ef2a374{min-height:535px;justify-content:flex-start;padding-top:16px;width:100%;height:auto}#\36 3a049320d35b55b4ef2a377{min-height:unset;flex-direction:column;padding:4%}#\36 3a049ca0d35b55b4ef2a5c3{align-self:flex-start;margin-left:0;margin-right:0}#\39 d047ce9{width:100%;min-height:62px;height:auto;padding-bottom:6px}#a1f8711f{min-height:unset;flex-direction:column;padding-left:4%;padding-right:4%;padding-bottom:4%}#\39 dc5a074{min-height:0;flex-direction:row;flex-wrap:nowrap;padding:0 2%}#\38 8e69a6f{width:50%;justify-content:center;min-height:8px}#\30 4886df1{width:25%;justify-content:flex-start;min-height:8px}#\37 80d21df{width:12.3%}#\37 64397de{align-items:center;width:25%;min-height:8px}#\37 ff771e1{width:32px;height:32px}}#\36 ecb6e65{min-height:60vh;width:100%;flex-direction:row;justify-content:center;align-items:flex-end;max-width:none;padding:72px 5%}#\32 9ef2f3a::before{border-radius:inherit;background-color:var(--color_5);top:0;left:0;display:block;width:100%;position:absolute;opacity:.65;content:'';height:100%}#\32 9ef2f3a{background-repeat:no-repeat;background-size:cover;background-image:url(https://irp.cdn-website.com/2a2f3a6a/dms3rep/multi/opt/1792381307407-16_9-2fr-1920w.png)}#\34 09c90d8{align-self:flex-end;row-gap:14px;max-width:1140px;justify-content:flex-start;align-items:stretch}#\37 df9cd49{row-gap:14px;flex-direction:column;max-width:640px;justify-content:flex-start;align-items:stretch;padding:0}#\30 815508a,#\31 aa6a960,#\37 b1af6a8,#\39 113af24,#\39 272fe65,#a4a56da2,#a8fb5ed8,#b272670d,#bfae671f,#dace5d0f,#ef1ac08c,#ff4c59d3{max-width:100%;width:auto;height:auto}#b9123252{min-height:240px;width:100%;flex-direction:row;justify-content:flex-start;align-items:center}#\37 19eee77{align-self:center;row-gap:24px;flex-direction:column;justify-content:flex-start;align-items:stretch}#\30 902a392{max-width:640px;width:auto;height:auto}#\33 6a630ec{row-gap:24px;column-gap:24px;flex-direction:row;width:100%;justify-content:flex-start;align-items:stretch;flex-wrap:wrap;padding:0}#\30 5ce3a55,#\34 2869024,#d82922c8,#ee1d9b05{padding-top:28px;padding-left:28px;padding-bottom:28px;border-color:var(--color_3) var(--color_4) var(--color_4);background-color:var(--color_6);border-radius:6px;row-gap:14px;box-shadow:0 2px 6px rgba(31,38,48,.08);flex-direction:column;flex:1;justify-content:flex-start;border-width:4px 1px 1px;align-items:stretch;border-style:solid;padding-right:28px;min-width:220px}@media (min-width:768px) and (max-width:1024px){#\36 ecb6e65,#b9123252{padding-right:var(--section-padding-right);padding-left:var(--section-padding-left)}#\30 5ce3a55,#\34 2869024,#d82922c8,#ee1d9b05{min-width:260px}}@media (max-width:767px){#\36 ecb6e65,#b9123252{min-height:unset;flex-direction:column;padding-right:var(--section-padding-right);padding-left:var(--section-padding-left)}#\34 09c90d8,#\37 19eee77{align-items:center}#\30 5ce3a55,#\34 2869024,#d82922c8,#ee1d9b05{flex:0 1 auto;width:100%;min-width:0}}@font-face{font-family:"Fraunces Fallback";src:local('Arial');ascent-override:93.0378%;descent-override:24.2583%;size-adjust:105.1186%;line-gap-override:0}@font-face{font-family:"Poppins Fallback";src:local('Arial');ascent-override:92.326%;descent-override:30.7753%;line-gap-override:8.793%;size-adjust:113.7274%}@font-face{font-family:"Work Sans Fallback";src:local('Arial');ascent-override:82.1016%;descent-override:21.4523%;size-adjust:113.2743%;line-gap-override:0}@media (min-width:1025px){#\30 4886df1,#\31 198691314,#\31 228589949,#\31 540576542,#\36 ecb6e65,#\37 80d21df,#\38 8e69a6f,#\39 dc5a074{order:0;flex-direction:row}#\30 6cb1687,#group_5mc{order:1}#\30 5ce3a55,#\31 998592992,#\33 6a630ec,#\34 09c90d8,#\34 2869024,#\36 3a049320d35b55b4ef2a374,#\36 3a049320d35b55b4ef2a377,#\36 3da2bddeae8da42b2353673,#\36 3da2bf2eae8da42b23538a2,#\37 19eee77,#\37 df9cd49,#\39 d047ce9,#a1f8711f,#b9123252,#d82922c8,#ee1d9b05,#hamburger-drawer{order:0}#\31 998592992,#\33 6a630ec,#\36 3a049320d35b55b4ef2a377,#\36 3da2bddeae8da42b2353673,#a1f8711f,#b9123252{flex-direction:row}} #dm .dmPhotoGallery.newPhotoGallery .dmPhotoGalleryHolder:not(.photo-gallery-done) {display: none;} @media (max-width:767px){ [data-hidden-on-mobile] {display:none!important}}
+    .dmDesktopBody [data-anim-desktop]:not([data-anim-desktop='none']) {
+      visibility: hidden;
+    }
+
+    
+</style>
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Fraunces Fallback";
+  src: local('Arial');
+  ascent-override: 93.0378%;
+  descent-override: 24.2583%;
+  size-adjust: 105.1186%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Poppins Fallback";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}@font-face {
+  font-family: "Work Sans Fallback";
+  src: local('Arial');
+  ascent-override: 82.1016%;
+  descent-override: 21.4523%;
+  size-adjust: 113.2743%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://it-website.multiscreensite.com/">
+<script type="application/ld+json">
+    {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : "IT 3203 Website",
+        "url" : "https://it-website.multiscreensite.com/"
+    }
+</script>
+  <title>
+    IT 3203 Website | Course Project &amp; Research Topic
+  </title>
+  <meta name="description" content="Explore the IT 3203 Website, a modern college course project with pages on the author, research topic, gallery, and resources. Start here."/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="IT 3203 Website | Course Project &amp; Research Topic"/>
+  <meta name="twitter:description" content="Explore the IT 3203 Website, a modern college course project with pages on the author, research topic, gallery, and resources. Start here."/>
+  <meta property="og:description" content="Explore the IT 3203 Website, a modern college course project with pages on the author, research topic, gallery, and resources. Start here."/>
+  <meta property="og:title" content="IT 3203 Website | Course Project &amp; Research Topic"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="home"  class="dmRoot fix-mobile-scrolling flex-site dmResellerSite "
+      style="padding:0;margin:0;"
+      
+     data-flex-site >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper -var5 null ">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="FlexHeader" data-responsive-name="FlexLayout" class="runtime-module-container dm-bfs dm-layout-home hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody d-page-1716942098 inputs-css-clean dmDHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner" data-auto="page-inner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div id="dmFlexHeaderContainer" class="flex_hfcontainer"> <div id="flex-header" data-variation-id="variation0" role="banner"> <div data-auto="flex-section" id="1990152846" data-flex-id="c093187e" data-layout-section="" data-page-element-type="section" data-page-element-id="1475755753"> <div class="flex-widgets-container" id="1140644136"> <div class="imageWidget align-center u_1117254353" data-element-type="image" data-widget-type="image" id="1117254353" data-binding=""><img src="https://branches-image-res.s3.us-east-1.amazonaws.com/md/dmtmpl/fc9bc19f-3676-4f36-9f33-45ca8bfd663d/dms3rep/multi/default-logo-header.svg" alt="" id="1066052972" class="" data-dm-image-path="https://branches-image-res.s3.us-east-1.amazonaws.com/md/dmtmpl/fc9bc19f-3676-4f36-9f33-45ca8bfd663d/dms3rep/multi/default-logo-header.svg" width="0.0" height="0.0" onerror="handleImageLoadError(this)" loading="lazy"/></div> 
+</div> 
+ <section id="1c1481e3" class="flex-element section" data-auto="flex-element-section"> <div id="603c3bb7" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="9dc5a074" class="flex-element group" data-auto="flex-element-group"> <div id="88e69a6f" class="flex-element group" data-auto="flex-element-group"> <div id="06cb1687" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1665758914"> <div class="dmNewParagraph u_1665758914" data-auto="paragraph" data-version="5" id="1665758914" data-element-type="paragraph"> <h2 class="size-24"><span class="font-size-24" style="color:var(--color_6);display:unset;">IT 3203</span></h2> 
+</div> 
+</div> 
+</div> 
+ <div id="780d21df" class="flex-element group" data-auto="flex-element-group" data-hidden-on-tablet="" data-hidden-on-mobile=""> <div id="23d5f850" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1198691314"> <nav class="effect-bottom2 u_1198691314 main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1198691314" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101290749  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="About Me" data-auto="page-text-style">About Me<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/about" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101987112  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 1" data-auto="page-text-style">Topic 1<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/topic" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101481531  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 2" data-auto="page-text-style">Topic 2<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/gallery" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101903443  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Key Concepts" data-auto="page-text-style">Key Concepts<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/resources" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101954207  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="References" data-auto="page-text-style">References<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+ <div id="04886df1" class="flex-element group" data-auto="flex-element-group"> <div id="5286ad74" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-hidden-on-mobile="" data-hidden-on-tablet="" data-external-id="1540576542"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1540576542 flexButton" file="false" href="/contact" data-element-type="dButtonLinkId" id="1540576542"> <span class="iconBg" aria-hidden="true" id="1480742056"> <span class="icon hasFontIcon icon-star" id="1234163169"></span> 
+</span> 
+ <span class="text" id="1267294679">Contact us</span> 
+</a> 
+</div> 
+ <div id="7ff771e1" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="graphic" data-hidden-on-desktop="" data-external-id="1440420817"> <div class="graphicWidget" data-element-type="graphic" data-widget-type="graphic" id="1440420817"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1408 1792" id="1563237900" class="svg u_1563237900" data-icon-name="fa-phone"> <path fill="inherit" d="M1408 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-52.5-3.5t-57.5-12.5-47.5-14.5-55.5-20.5-49-18q-98-35-175-83-128-79-264.5-215.5t-215.5-264.5q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47.5-12.5-57.5-3.5-52.5q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z"></path> 
+</svg> 
+</div> 
+</div> 
+</div> 
+ <div id="764397de" class="flex-element group" data-auto="flex-element-group" data-hidden-on-desktop=""> <div id="00ca91b4" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="hamburgerButton" data-external-id="1998777521"> <button class="hamburgerButton" data-element-type="hamburgerButton" id="1998777521" aria-controls="hamburger-drawer" aria-expanded="false" aria-label="Open menu"> <svg width="100pt" height="100pt" version="1.1" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="1555668457"> <path d="m3.6172 10.754h-0.050782c-1.9727 0-3.5703 1.5977-3.5703 3.5703 0 1.9727 1.5977 3.5703 3.5703 3.5703h0.054688 92.758 0.050782c1.9727 0 3.5703-1.5977 3.5703-3.5703 0-1.9727-1.5977-3.5703-3.5703-3.5703h-0.054688zm0 35.676h-0.050782c-1.9727 0-3.5703 1.5977-3.5703 3.5703s1.5977 3.5703 3.5703 3.5703h0.054688 92.758 0.050782c1.9727 0 3.5703-1.5977 3.5703-3.5703s-1.5977-3.5703-3.5703-3.5703h-0.054688zm0 35.68h-0.050782c-1.9727 0-3.5703 1.5977-3.5703 3.5703 0 1.9727 1.5977 3.5703 3.5703 3.5703h0.054688 92.758 0.050782c1.9727 0 3.5703-1.5977 3.5703-3.5703 0-1.9727-1.5977-3.5703-3.5703-3.5703h-0.054688z"></path> 
+</svg> 
+</button> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+ <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="5ff40d2f36ae4e5ea1bc96b2e2fcf67e===header" data-origin="side-reverse"> <div data-layout-section="" data-auto="flex-section" id="1558513594" data-flex-id="18f5ea00"> <div class="flex-widgets-container" id="1554675836"></div> 
+ <section id="f6054f97" class="flex-element section" data-auto="flex-element-section"> <div id="ef8b5b8a" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="a1f8711f" class="flex-element group" data-auto="flex-element-group"> <div id="9d047ce9" class="flex-element group" data-auto="flex-element-group"> <div id="12a003a5" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="hamburgerButton" data-external-id="1717245942"> <button class="hamburgerButton" data-element-type="hamburgerButton" id="1717245942" aria-controls="hamburger-drawer" aria-expanded="false" aria-label="Close menu"> <svg width="100pt" height="100pt" version="1.1" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="1463788326"> <path d="m82 87.883c1.625 1.625 4.2656 1.625 5.8906 0 1.6289-1.6289 1.6289-4.2656 0-5.8945l-32.414-32.41 32.406-32.406c1.6289-1.625 1.6289-4.2656
+ 0-5.8906-1.6289-1.6289-4.2656-1.6289-5.8906 0l-32.406 32.402-32.406-32.406c-1.625-1.625-4.2656-1.625-5.8906 0-1.6289 1.6289-1.6289 4.2656 0
+ 5.8945l32.402 32.406-32.41 32.414c-1.6289 1.625-1.6289 4.2617 0 5.8906 1.625 1.6289 4.2656 1.6289 5.8906 0l32.414-32.414z" fill-rule="evenodd"></path> 
+</svg> 
+</button> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1099442592" data-flex-id="63a049320d35b55b4ef2a372" data-layout-section=""> <div class="flex-widgets-container" id="1247649854"></div> 
+ <section id="63a049320d35b55b4ef2a373" class="flex-element section" data-auto="flex-element-section"> <div id="63a049320d35b55b4ef2a376" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="63a049320d35b55b4ef2a377" class="flex-element group" data-auto="flex-element-group"> <div id="63a049320d35b55b4ef2a374" class="flex-element group" data-auto="flex-element-group"> <div id="63a049ca0d35b55b4ef2a5c3" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1998592992"> <nav class="u_1998592992 effect-bottom2 main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1998592992" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101290749  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="About Me" data-auto="page-text-style">About Me<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/about" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101987112  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 1" data-auto="page-text-style">Topic 1<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/topic" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101481531  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 2" data-auto="page-text-style">Topic 2<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/gallery" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101903443  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Key Concepts" data-auto="page-text-style">Key Concepts<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/resources" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101954207  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="References" data-auto="page-text-style">References<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_home dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper" data-auto="all-wrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div data-layout-section="" data-auto="flex-section" id="1443263172" data-flex-id="3cea4d00"> <div class="flex-widgets-container" id="1542293730"></div> 
+ <section id="3a79c8fa" class="flex-element section" data-auto="flex-element-section"> <div id="29ef2f3a" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="" data-gallery-bg=""> <div id="6ecb6e65" class="flex-element group" data-auto="flex-element-group"> <div id="409c90d8" class="flex-element group" data-auto="flex-element-group"> <div id="7df9cd49" class="flex-element group" data-auto="flex-element-group"> <div id="a4a56da2" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1802015440"> <div class="dmNewParagraph u_1802015440" data-auto="paragraph" data-version="5" id="1802015440" data-element-type="paragraph"> <h1 id="1067575054"><span style="color:var(--color_7);display:unset;" id="1917489215">IT 3203 Course Project</span></h1> 
+</div> 
+</div> 
+ <div id="a8fb5ed8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1514297343"> <div class="dmNewParagraph u_1514297343" data-auto="paragraph" data-version="5" id="1514297343" data-element-type="paragraph" style=""> <h3><span style="display: unset; color: var(--color_7);">Research Topic: Computer Engineer</span></h3> 
+</div> 
+</div> 
+ <div id="dace5d0f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1956779256"> <div class="dmNewParagraph u_1956779256" data-auto="paragraph" data-version="5" id="1956779256" data-element-type="paragraph"><p id="1952589342"><span style="color:var(--color_7);display:unset;" id="1142732576">Welcome to my IT 3203 website &mdash; a course project exploring a research topic in modern web design and development. Browse the site to learn more about the project, the author, and what's coming next.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-layout-section="" data-auto="flex-section" id="1394284114" data-flex-id="37d9e548"> <div class="flex-widgets-container" id="1268776961"></div> 
+ <section id="f46cd456" class="flex-element section" data-auto="flex-element-section"> <div id="fe6be18f" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="b9123252" class="flex-element group" data-auto="flex-element-group"> <div id="719eee77" class="flex-element group" data-auto="flex-element-group"> <div id="9272fe65" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1435754963"> <div class="dmNewParagraph u_1435754963" data-auto="paragraph" data-version="5" id="1435754963" data-element-type="paragraph"> <h2 id="1819654820"><span style="display:unset;" id="1142566788">What's on This Site</span></h2> 
+</div> 
+</div> 
+ <div id="0902a392" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1945159440"> <div class="dmNewParagraph u_1945159440" data-auto="paragraph" data-version="5" id="1945159440" data-element-type="paragraph"><p id="1499828856"><span style="display:unset;" id="1834020693">This course project site is organized into five main sections, each covering a different part of the IT 3203 assignment.</span></p></div> 
+</div> 
+ <div id="36a630ec" class="flex-element group" data-auto="flex-element-group"> <div id="42869024" class="flex-element group" data-auto="flex-element-group"> <div id="b272670d" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1133592764"> <div class="dmNewParagraph u_1133592764" data-auto="paragraph" data-version="5" id="1133592764" data-element-type="paragraph"> <h3><span style="display: unset;"><span style="display: unset;">About Me</span> 
+</span></h3> 
+</div> 
+</div> 
+ <div id="ef1ac08c" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1654342575"> <div class="dmNewParagraph u_1654342575" data-auto="paragraph" data-version="5" id="1654342575" data-element-type="paragraph"><p id="1437564122"><span style="display:unset;" id="1443002568">Meet the student behind this project and learn why this topic matters.</span></p></div> 
+</div> 
+</div> 
+ <div id="ee1d9b05" class="flex-element group" data-auto="flex-element-group"> <div id="1aa6a960" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1611408251"> <div class="dmNewParagraph u_1611408251" data-auto="paragraph" data-version="5" id="1611408251" data-element-type="paragraph" style=""> <h3><span style="display: unset;">Topics 1 &amp; 2</span></h3> 
+</div> 
+</div> 
+ <div id="7b1af6a8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1658856162"> <div class="dmNewParagraph u_1658856162" data-auto="paragraph" data-version="5" id="1658856162" data-element-type="paragraph"><p id="1262042355"><span style="display:unset;" id="1856970852">Explore the core research topic once it's finalized, with key points and findings.</span></p></div> 
+</div> 
+</div> 
+ <div id="d82922c8" class="flex-element group" data-auto="flex-element-group"> <div id="bfae671f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1515269924"> <div class="dmNewParagraph u_1515269924" data-auto="paragraph" data-version="5" id="1515269924" data-element-type="paragraph" style=""> <h3><span style="display: unset;">Key Concepts</span></h3> 
+</div> 
+</div> 
+ <div id="ff4c59d3" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1005865088"> <div class="dmNewParagraph u_1005865088" data-auto="paragraph" data-version="5" id="1005865088" data-element-type="paragraph"><p id="1292099536"><span style="display:unset;" id="1910951907">Browse a visual gallery of images related to the project and its topic.</span></p></div> 
+</div> 
+</div> 
+ <div id="05ce3a55" class="flex-element group" data-auto="flex-element-group"> <div id="9113af24" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1625549452"> <div class="dmNewParagraph u_1625549452" data-auto="paragraph" data-version="5" id="1625549452" data-element-type="paragraph" style=""> <h3><span style="display: unset;">Referencees</span></h3> 
+</div> 
+</div> 
+ <div id="0815508a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1947831796"> <div class="dmNewParagraph u_1947831796" data-auto="paragraph" data-version="5" id="1947831796" data-element-type="paragraph" style=""><p><span style="display: unset;">Find helpful links, resources, and tools used throughout this project.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer flex_hfcontainer"> <div id="flex-footer" role="contentinfo"> <div data-auto="flex-section" id="1755561873" data-flex-id="63da2bddeae8da42b2353671" data-layout-section=""> <div class="flex-widgets-container" id="1245219930"></div> 
+ <section id="63da2bddeae8da42b2353670" class="flex-element section" data-auto="flex-element-section"> <div id="63da2bddeae8da42b2353672" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="63da2bddeae8da42b2353673" class="flex-element group" data-auto="flex-element-group"> <div id="63da2bf2eae8da42b23538a2" class="flex-element group" data-auto="flex-element-group"> <div id="44118299" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1694378215"> <div class="dmNewParagraph u_1694378215" data-auto="paragraph" data-version="5" id="1694378215" data-element-type="paragraph"> <h3 class="text-align-center"><span style="color:var(--color_6);display:unset;">IT 3203 Website</span></h3> 
+</div> 
+</div> 
+ <div id="b320b586" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1020010728"> <div class="dmNewParagraph u_1020010728" data-auto="paragraph" data-version="5" id="1020010728" data-element-type="paragraph"><p class="text-align-center"><a href="/about" style="color:var(--color_6);display:unset;"><span style="display:unset;">IT 3203</span></a></p></div> 
+</div> 
+ <div id="a7608253" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1744650288"> <div class="dmNewParagraph u_1744650288" data-auto="paragraph" data-version="5" id="1744650288" data-element-type="paragraph"><p class="text-align-center"><span style="color:var(--color_6);display:unset;">&copy; 2026 IT 3203 Website. All rights reserved.</span></p></div> 
+</div> 
+</div> 
+ <div id="group_5mc" class="flex-element group" data-auto="flex-element-group"> <div id="3642675e" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1228589949"> <nav class="u_1228589949 effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1228589949" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="VERTICAL" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101290749  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="About Me" data-auto="page-text-style">About Me<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/about" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101987112  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 1" data-auto="page-text-style">Topic 1<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/topic" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101481531  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Topic 2" data-auto="page-text-style">Topic 2<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/gallery" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101903443  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Key Concepts" data-auto="page-text-style">Key Concepts<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/resources" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101954207  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="References" data-auto="page-text-style">References<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Fraunces:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" />
+
+
+
+
+
+
+<link rel="preload" as="style" fetchpriority="low" onload="loadCSS(this)" href="https://static.cdn-website.com/mnlt/production/6862/_dm/s/rt/dist/css/d-css-runtime-flex-new-nav.min.css" />
+
+
+
+<link rel="preload" href="https://irp.cdn-website.com/WIDGET_CSS/4c1b91112ee4d8250583405e8f17ee46.css" id="widgetCSS" as="style" fetchpriority="low" onload="loadCSS(this)" />
+
+
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+
+<style>
+  body[data-page-alias="home"] #dm [data-show-on-page-only="home"] {
+    display: block !important;
+  }
+</style>
+
+
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+
+<link rel="preload" href="https://irp.cdn-website.com/2a2f3a6a/files/2a2f3a6a_withFlex_1.min.css?v=b8d815e13aea54edef65fa0c45fa8df4" id="siteGlobalCss" as="style" fetchpriority="low" onload="loadCSS(this)" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+
+<link rel="preload" href="https://irp.cdn-website.com/2a2f3a6a/files/2a2f3a6a_home_withFlex_1.min.css?v=fd8047222a6edbc317e99618364b85a1" id="homeCssLink" as="style" fetchpriority="low" onload="loadCSS(this)" />
+
+<style id="pagestyle" type="text/css">
+    
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    @media (min-width: 1025px) { [data-version] .size-24, [data-version] .font-size-24 {--font-size: 24;} }@media (min-width: 768px) and (max-width: 1024px) {  }@media (max-width: 767px) {  }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+
+
+
+
+<script type="text/javascript">
+
+    var d_version = "production_6862";
+    var build = "2026-10-15T12_49_24";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+
+
+<!-- Injecting site-wide before scripts -->
+
+<!-- End Injecting site-wide to the head -->
+
+
+
+
+
+
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["common.build.dist.folder"] = 'production/6862';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/6862';
+    rtCommonProps["common.fonts.api.v2.url"] = 'https://irp.cdn-website.com/fonts/css2?family=';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://irp.cdn-website.com/';
+    rtCommonProps["feature.flag.performance.logs"] =false;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["termly.mapbox.consent.category"] = 'performance';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.repeatOrderRedirect.enabled"] = false;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.monolith.legacy.js.api.disabled.for.new.sites"] = false;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["flex.animation.design.panel.layout"] =true;
+    rtFlags["runtime.cwv.report.cls.enabled"] =false;
+    rtFlags["runtime.cwv.report.lcp.enabled"] =false;
+    rtFlags["runtime.lcp.preload.selfheal.enabled"] =true;
+    rtFlags["runtime.lcp.preload.bootstrap.enabled"] =true;
+    rtFlags["runtime.lcp.preload.monitor.enabled"] =true;
+    rtFlags["runtime.customwidget.heightpin.enabled"] =true;
+    rtFlags["runtime.customwidget.config.compare.enabled"] =false;
+    rtFlags["runtime.video.widget.lazy.enabled"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/6862/_dm/s/rt/dist/scripts/d-js-runtime-flex-package.min.js"  id="d-js-core" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () =>
+        window.runtime.initLayout()
+    );
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="d_track_sp">
+    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+        p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+        };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+        n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+    window.dmsnowplow  = window.snowplow;
+
+    dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+        appId: '2a2f3a6a'
+    });
+
+    // snowplow queries element styles so we wait until CSS calculations are done.
+    requestAnimationFrame(() => {
+        dmsnowplow('trackPageView');
+        _dm_insite.forEach((rule) => {
+            // Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+            // the tracking is in popup.js
+            if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+            window?.waitForDeferred?.('dmAjax', () => {
+                $.DM.events.trigger('event-ruleTriggered', {value: rule});
+            });
+        });
+    });
+</script>
+
+
+
+<div style="display:none;" id="P6iryBW0Wu"></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" data-auto="pswp-close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" data-auto="pswp-share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 2a2f3a6a -->
+<script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    </script>
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>
